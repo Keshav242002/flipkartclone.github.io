@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Quicksand:wght@300&display=swap");
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 5px 10px;
+  color: white;
+  background-color: #2874f0;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.my-1 {
+  margin: 26px 0;
+}
+.text-center {
+  text-align: center;
+}
+.text-centers {
+  text-align: center;
+  color: green;
+  font-family: "Koulen", cursive;
+  font-family: "Quicksand", sans-serif;
+}

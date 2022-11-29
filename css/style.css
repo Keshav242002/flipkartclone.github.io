@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+header {
+  background-color: #2874f0;
+  font-family: "Koulen", cursive;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 130px;
+  padding: 0 23px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 78px;
+  padding: 0 23px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: black;
+  font-weight: bolder;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 5px;
+  margin: 0 16px 0 56px;
+  padding: 0 12px;
+}
+.carousel-item img {
+  width: 844px;
+  height: 140px;
+}
+.card {
+  max-width: 91vw;
+  margin: auto;
+  font-family: "Koulen", cursive;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.card h3 {
+  background-color: white;
+  width: 230px;
+  color: black;
+  font-family: "Koulen", cursive;
+  font-family: "Quicksand", sans-serif;
+}
+.card-item img {
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+
+footer {
+  height: 6vh;
+  background-color: #2874f0;
+  color: aliceblue;
+  font-family: "Koulen", cursive;
+}
